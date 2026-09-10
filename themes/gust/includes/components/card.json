@@ -1,0 +1,39 @@
+{
+  "id": "card",
+  "displayName": "Card",
+  "description": "Provides the layout for a card with an image and content below.",
+  "category": "Content",
+  "tag": "div",
+  "children": [
+    {
+      "id": "wrapper",
+      "tag": "div",
+      "children": [
+        {
+          "id": "img-wrap",
+          "tag": "div",
+          "classNames": "bg-gray-200 relative",
+          "children": [
+            {
+              "id": "img-spacer",
+              "tag": "div",
+              "classNames": "pb-40"
+            },
+            {
+              "id": "img-content",
+              "tag": "div",
+              "classNames": "absolute left-0 top-0 w-full h-full",
+              "allowChildren": true
+            }
+          ]
+        },
+        {
+          "id": "content-wrap",
+          "tag": "div",
+          "classNames": "p-4 bg-white border",
+          "allowChildren": true
+        }
+      ]
+    }
+  ]
+}

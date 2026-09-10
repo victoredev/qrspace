@@ -1,0 +1,80 @@
+{
+  "thumbnail": "{themeUrl}/assets/img/template-images/hero-left-with-colour-bg.png",
+  "premium": false,
+  "template": [
+    {
+      "tag": "div",
+      "classNames": "relative bg-gray-100 text-gray-900 py-16 md:py-48",
+      "children": [
+        {
+          "instanceOfComponent": "container",
+          "componentDetails": {
+            "container": {
+              "children": [
+                {
+                  "tag": "div",
+                  "classNames": "relative",
+                  "children": [
+                    {
+                      "instanceOfComponent": "h1",
+                      "componentDetails": {
+                        "h1": {
+                          "content": {
+                            "type": "value",
+                            "value": "Your unique selling point"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "tag": "p",
+                      "classNames": "text-xl my-8 md:w-2/3 text-gray-500 tracking-wider",
+                      "content": {
+                        "type": "value",
+                        "value": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
+                      }
+                    },
+                    {
+                      "tag": "div",
+                      "classNames": "flex gap-4",
+                      "children": [
+                        {
+                          "instanceOfComponent": "button",
+                          "componentDetails": {
+                            "button": {
+                              "content": {
+                                "type": "value",
+                                "value": "Buy now"
+                              },
+                              "options": {
+                                "type": "bg-primary border-primary text-white"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "instanceOfComponent": "button",
+                          "componentDetails": {
+                            "button": {
+                              "content": {
+                                "type": "value",
+                                "value": "Contact us"
+                              },
+                              "options": {
+                                "type": "bg-white border-primary text-primary"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

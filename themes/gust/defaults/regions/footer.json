@@ -1,0 +1,159 @@
+[
+  {
+    "instanceId": "g3IB7tgzQ6qfEkdkeaN8K",
+    "tag": "footer",
+    "classNames": "bg-gray-100 py-8 md:py-12 text-gray-500 text-sm tracking-wide",
+    "repeaterItems": [],
+    "children": [
+      {
+        "instanceId": "xtkz_qqWAQr-Ort9KbpHb",
+        "instanceOfComponent": "container",
+        "repeaterItems": [],
+        "children": [],
+        "componentDetails": {
+          "container": {
+            "children": [
+              {
+                "instanceId": "Jb8Se08n3HvxoNE4FiLM8",
+                "instanceOfComponent": "grid",
+                "repeaterItems": [],
+                "children": [],
+                "componentDetails": {
+                  "grid": {
+                    "children": [
+                      {
+                        "instanceId": "XwfcFOQM54OycY9C2W384",
+                        "instanceOfComponent": "column",
+                        "repeaterItems": [],
+                        "children": [],
+                        "componentDetails": {
+                          "column": {
+                            "children": [
+                              {
+                                "instanceId": "t_TUa3ifdkyUrXqZPKf1G",
+                                "tag": "div",
+                                "content": {
+                                  "type": "value",
+                                  "value": "Column 1"
+                                },
+                                "repeaterItems": [],
+                                "classNames": "text-xs font-medium uppercase tracking-wide text-gray-900",
+                                "children": [],
+                                "componentDetails": {}
+                              },
+                              {
+                                "instanceId": "xghMXwfB2SZnQIokW0bYu",
+                                "tag": "p",
+                                "classNames": "mt-4",
+                                "content": {
+                                  "type": "value",
+                                  "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                                },
+                                "children": [],
+                                "componentDetails": {},
+                                "repeaterItems": []
+                              }
+                            ],
+                            "options": {
+                              "width": "col-span-12",
+                              "mdWidth": "md:col-span-4",
+                              "lgWidth": ""
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "instanceId": "Cix9aiWlR73X1FHJo_PzW",
+                        "instanceOfComponent": "column",
+                        "repeaterItems": [],
+                        "children": [],
+                        "componentDetails": {
+                          "column": {
+                            "children": [
+                              {
+                                "instanceId": "fAR6SF5HNTeZ8LoREyxs7",
+                                "tag": "div",
+                                "classNames": "text-xs font-medium uppercase tracking-wide text-gray-900",
+                                "content": {
+                                  "type": "value",
+                                  "value": "Column 2"
+                                },
+                                "children": [],
+                                "componentDetails": {},
+                                "repeaterItems": []
+                              },
+                              {
+                                "instanceId": "LwC4QWAd122vUHczchHs0",
+                                "tag": "p",
+                                "content": {
+                                  "type": "value",
+                                  "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n"
+                                },
+                                "classNames": "mt-4",
+                                "children": [],
+                                "componentDetails": {},
+                                "repeaterItems": []
+                              }
+                            ],
+                            "options": {
+                              "width": "col-span-12",
+                              "mdWidth": "md:col-span-4",
+                              "lgWidth": "lg:col-span-4"
+                            }
+                          }
+                        }
+                      },
+                      {
+                        "instanceId": "EyxJ3iZGcss5CjXpiWqzJ",
+                        "instanceOfComponent": "column",
+                        "repeaterItems": [],
+                        "children": [],
+                        "componentDetails": {
+                          "column": {
+                            "children": [
+                              {
+                                "instanceId": "oZzG50jcD0KZvqLRAEt_Q",
+                                "tag": "div",
+                                "classNames": "text-xs font-medium uppercase tracking-wide text-gray-900",
+                                "content": {
+                                  "type": "value",
+                                  "value": "Column 3"
+                                },
+                                "children": [],
+                                "componentDetails": {},
+                                "repeaterItems": []
+                              },
+                              {
+                                "instanceId": "1IdWossS_IYw1qodQ2wiq",
+                                "tag": "p",
+                                "classNames": "mt-4",
+                                "content": {
+                                  "type": "value",
+                                  "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n"
+                                },
+                                "children": [],
+                                "componentDetails": {},
+                                "repeaterItems": []
+                              }
+                            ],
+                            "options": {
+                              "width": "col-span-12",
+                              "mdWidth": "md:col-span-4",
+                              "lgWidth": ""
+                            }
+                          }
+                        }
+                      }
+                    ],
+                    "options": { "colSpacing": "gap-2" }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "componentDetails": {}
+  }
+]

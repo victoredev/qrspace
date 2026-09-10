@@ -1,0 +1,52 @@
+{
+  "id": "tabsTop",
+  "displayName": "Top Tabs",
+  "description": "Displays sections of content that can be switched by clicking the tab label.",
+  "category": "Content",
+  "tag": "div",
+  "hasRepeater": true,
+  "classNames": "gust-revealable",
+  "scripts": ["gust-revealable"],
+  "children": [
+    {
+      "id": "tabLabelsContainer",
+      "tag": "ul",
+      "classNames": "flex overflow-x-scroll",
+      "children": [
+        {
+          "id": "tabLabel",
+          "tag": "li",
+          "useRepeater": true,
+          "classNames": "group gust-revealable-trigger-iterable",
+          "children": [
+            {
+              "id": "tabButton",
+              "tag": "button",
+              "classNames": "py-2 px-4 font-medium border-b-2 group-gust-active-item:border-primary rounded-none whitespace-nowrap gust-revealable-trigger",
+              "allowRepeaterContent": true,
+              "content": {
+                "type": "value",
+                "value": "Tab"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tabContentContainer",
+      "tag": "div",
+      "classNames": "border-t-2 -mt-0.5",
+      "children": [
+        {
+          "id": "tabContent",
+          "tag": "div",
+          "useRepeater": true,
+          "displayRepeated": "single",
+          "allowChildren": true,
+          "classNames": "gust-active-item:block hidden gust-revealable-target py-4"
+        }
+      ]
+    }
+  ]
+}

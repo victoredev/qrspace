@@ -1,0 +1,91 @@
+{
+  "thumbnail": "{themeUrl}/assets/img/template-images/hero-left-with-image-bg.png",
+  "premium": true,
+  "template": [
+    {
+      "tag": "div",
+      "classNames": "relative text-white py-16 md:py-48 text-left",
+      "children": [
+        {
+          "instanceOfComponent": "image",
+          "componentDetails": {
+            "image": {
+              "classNames": "absolute left-0 top-0 w-full h-full object-cover",
+              "options": {
+                "src": "{themeUrl}/assets/img/template-img-assets/sand-dune-top.jpeg"
+              }
+            }
+          }
+        },
+        {
+          "instanceOfComponent": "container",
+          "componentDetails": {
+            "container": {
+              "children": [
+                {
+                  "tag": "div",
+                  "classNames": "relative",
+                  "children": [
+                    {
+                      "instanceOfComponent": "h1",
+                      "componentDetails": {
+                        "h1": {
+                          "content": {
+                            "type": "value",
+                            "value": "Your unique selling point"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "tag": "p",
+                      "classNames": "text-xl my-8 md:w-2/3 text-gray-200 tracking-wider",
+                      "content": {
+                        "type": "value",
+                        "value": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis."
+                      }
+                    },
+                    {
+                      "tag": "div",
+                      "classNames": "flex gap-4",
+                      "children": [
+                        {
+                          "instanceOfComponent": "button",
+                          "componentDetails": {
+                            "button": {
+                              "content": {
+                                "type": "value",
+                                "value": "Buy now"
+                              },
+                              "options": {
+                                "type": "bg-primary border-primary text-white"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "instanceOfComponent": "button",
+                          "componentDetails": {
+                            "button": {
+                              "content": {
+                                "type": "value",
+                                "value": "Contact us"
+                              },
+                              "options": {
+                                "type": "bg-white border-primary text-primary"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "id": "slider",
+  "displayName": "Slider",
+  "description": "Shows content in a slider carousel.",
+  "category": "Slider",
+  "tag": "div",
+  "hasRepeater": true,
+  "scripts": ["gust-slider"],
+  "styles": ["gust-swiper"],
+  "classNames": "gust-slider swiper-container swiper",
+  "children": [
+    {
+      "id": "sliderWrapper",
+      "tag": "div",
+      "classNames": "swiper-wrapper",
+      "children": [
+        {
+          "id": "sliderItem",
+          "tag": "div",
+          "classNames": "min-h-60 swiper-slide flex",
+          "useRepeater": true,
+          "allowChildren": true,
+          "displayRepeated": "single"
+        }
+      ]
+    },
+    {
+      "id": "sliderPagination",
+      "tag": "div",
+      "classNames": "swiper-pagination"
+    },
+    {
+      "id": "sliderButtonPrev",
+      "tag": "div",
+      "classNames": "swiper-button-prev"
+    },
+    {
+      "id": "sliderButtonNext",
+      "tag": "div",
+      "classNames": "swiper-button-next"
+    }
+  ]
+}

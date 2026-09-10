@@ -1,0 +1,239 @@
+{
+  "thumbnail": "{themeUrl}/assets/img/template-images/navigation-default-with-buttons-left.png",
+  "premium": false,
+  "template": [
+    {
+      "tag": "div",
+      "classNames": "py-4",
+      "children": [
+        {
+          "instanceOfComponent": "container",
+          "children": [],
+          "componentDetails": {
+            "container": {
+              "children": [
+                {
+                  "tag": "div",
+                  "classNames": "flex justify-between items-center",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "content": {
+                        "type": "value",
+                        "value": ""
+                      },
+                      "children": [
+                        {
+                          "tag": "a",
+                          "attributes": [
+                            {
+                              "type": "value",
+                              "name": "href",
+                              "value": "/"
+                            }
+                          ],
+                          "children": [
+                            {
+                              "instanceOfComponent": "image",
+                              "children": [],
+                              "componentDetails": {
+                                "image": {
+                                  "classNames": "w-36",
+                                  "children": [],
+                                  "options": {
+                                    "src": "/wp-content/themes/gust/assets/img/logo.png",
+                                    "alt": "Gust Logo"
+                                  }
+                                }
+                              }
+                            }
+                          ],
+                          "componentDetails": {}
+                        }
+                      ],
+                      "componentDetails": {}
+                    },
+                    {
+                      "tag": "div",
+                      "content": {
+                        "type": "value",
+                        "value": ""
+                      },
+                      "classNames": "flex md:flex-grow",
+                      "children": [
+                        {
+                          "tag": "button",
+                          "classNames": "p-2 md:hidden toggle-m-nav",
+                          "attributes": [
+                            {
+                              "type": "value",
+                              "name": "aria-label",
+                              "value": "Open menu"
+                            }
+                          ],
+                          "children": [
+                            {
+                              "instanceOfComponent": "barsIconSolid",
+                              "children": [],
+                              "componentDetails": {
+                                "barsIconSolid": {
+                                  "classNames": "w-6 inline-block",
+                                  "children": []
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "classNames": "z-50 fixed inset-0 bg-gray-100 p-4 md:visible md:relative md:bg-transparent md:transform md:translate-x-0 gust-mobile-nav gust-mobile-nav--closed space-y-4 md:space-y-0  md:flex md:items-center md:space-x-4 flex-grow",
+                          "children": [
+                            {
+                              "tag": "div",
+                              "classNames": "text-right mb-4 md:hidden",
+                              "children": [
+                                {
+                                  "tag": "button",
+                                  "classNames": "p-2  toggle-m-nav",
+                                  "attributes": [
+                                    {
+                                      "type": "value",
+                                      "name": "aria-label",
+                                      "value": "Close menu"
+                                    }
+                                  ],
+                                  "children": [
+                                    {
+                                      "instanceOfComponent": "timesIconSolid",
+                                      "children": [],
+                                      "componentDetails": {
+                                        "timesIconSolid": {
+                                          "classNames": "w-6 inline-block",
+                                          "children": []
+                                        }
+                                      }
+                                    }
+                                  ],
+                                  "componentDetails": {}
+                                }
+                              ],
+                              "componentDetails": {}
+                            },
+                            {
+                              "tag": "nav",
+                              "classNames": "flex-grow",
+                              "content": {
+                                "type": "filter",
+                                "value": "gust_main_nav"
+                              },
+                              "children": [],
+                              "componentDetails": {}
+                            },
+                            {
+                              "instanceOfComponent": "button",
+                              "componentDetails": {
+                                "button": {
+                                  "classNames": "font-bold rounded border-2 hover:opacity-70  text-center",
+                                  "extraClassNames": "block text-center md:inline-block",
+                                  "content": {
+                                    "type": "value",
+                                    "value": "Button"
+                                  },
+                                  "options": {
+                                    "type": "bg-white border-primary text-primary",
+                                    "size": "px-4 py-2 text-sm"
+                                  }
+                                }
+                              }
+                            },
+                            {
+                              "instanceOfComponent": "button",
+                              "componentDetails": {
+                                "button": {
+                                  "classNames": "font-bold rounded border-2 hover:opacity-70  text-center",
+                                  "extraClassNames": "block text-center md:inline-block",
+                                  "content": {
+                                    "type": "value",
+                                    "value": "Button"
+                                  },
+                                  "options": {
+                                    "type": "bg-primary border-primary text-white",
+                                    "size": "px-4 py-2 text-sm"
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "button",
+                          "classNames": "ml-2 px-2 gust-toggle-search",
+                          "children": [
+                            {
+                              "instanceOfComponent": "searchIconSolid",
+                              "children": [],
+                              "componentDetails": {
+                                "searchIconSolid": {
+                                  "classNames": "w-6 inline-block",
+                                  "children": []
+                                }
+                              }
+                            }
+                          ],
+                          "componentDetails": {}
+                        },
+                        {
+                          "tag": "div",
+                          "classNames": "z-50 fixed inset-0 bg-gray-50 bg-opacity-60 backdrop-blur p-4 gust-search--closed gust-search",
+                          "children": [
+                            {
+                              "tag": "div",
+                              "classNames": "p-8 max-w-screen-sm mx-auto bg-white rounded-lg shadow mt-8 gust-search__container  transform -translate-y-1/2 transition-transform ease-in relative",
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "content": {
+                                    "type": "filter",
+                                    "value": "gust_search"
+                                  },
+                                  "children": [],
+                                  "componentDetails": {}
+                                },
+                                {
+                                  "tag": "div",
+                                  "classNames": "absolute bottom-2 text-gray-400 text-sm",
+                                  "children": [
+                                    {
+                                      "tag": "button",
+                                      "classNames": "gust-toggle-search",
+                                      "content": {
+                                        "type": "value",
+                                        "value": "Close or esc"
+                                      },
+                                      "children": [],
+                                      "componentDetails": {}
+                                    }
+                                  ],
+                                  "componentDetails": {}
+                                }
+                              ],
+                              "componentDetails": {}
+                            }
+                          ],
+                          "componentDetails": {}
+                        }
+                      ],
+                      "componentDetails": {}
+                    }
+                  ],
+                  "componentDetails": {}
+                }
+              ]
+            }
+          }
+        }
+      ],
+      "componentDetails": {}
+    }
+  ]
+}

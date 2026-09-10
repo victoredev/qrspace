@@ -1,0 +1,9 @@
+{
+  "id": "container",
+  "displayName": "Container",
+  "description": "Centers content horizontally.",
+  "category": "Layout",
+  "tag": "div",
+  "classNames": "px-4 max-w-screen-lg mx-auto",
+  "allowChildren": true
+}

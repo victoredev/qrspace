@@ -1,0 +1,111 @@
+{
+  "id": "textarea",
+  "displayName": "Text area",
+  "description": "Accept multiple lines of user input.",
+  "category": "Data input",
+  "tag": "div",
+  "classNames": "",
+  "options": [
+    {
+      "name": "required",
+      "type": "select",
+      "label": "Required",
+      "modify": "none",
+      "options": [
+        {
+          "label": "No",
+          "value": "false"
+        },
+        {
+          "label": "Yes",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "name": "placeholder",
+      "type": "text",
+      "label": "Placeholder",
+      "modify": "none"
+    },
+    {
+      "type": "text",
+      "label": "Field name",
+      "modify": "none",
+      "name": "name",
+      "value": "",
+      "prepopulate": "instanceId"
+    },
+    {
+      "label": "Field ID",
+      "type": "text",
+      "name": "input-id",
+      "value": "",
+      "prepopulate": "instanceId",
+      "modify": "none"
+    }
+  ],
+  "children": [
+    {
+      "id": "textareaLabel",
+      "tag": "label",
+      "userSelect": true,
+      "classNames": "block text-sm font-medium leading-6 text-gray-900",
+      "content": {
+        "type": "value",
+        "value": "Input label"
+      },
+      "references": [
+        {
+          "updates": "attribute",
+          "name": "for",
+          "type": "option",
+          "target": "input-id"
+        },
+        {
+          "updates": "classNames",
+          "type": "option",
+          "target": "test-option"
+        }
+      ]
+    },
+    {
+      "id": "textareaInput",
+      "tag": "textarea",
+      "classNames": "form-textarea block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-primary sm:text-sm sm:leading-6",
+      "attributes": [
+        {
+          "type": "value",
+          "name": "type",
+          "value": "text"
+        }
+      ],
+      "references": [
+        {
+          "updates": "attribute",
+          "name": "placeholder",
+          "type": "option",
+          "target": "placeholder"
+        },
+        {
+          "updates": "attribute",
+          "name": "name",
+          "type": "option",
+          "target": "name"
+        },
+        {
+          "updates": "attribute",
+          "name": "id",
+          "type": "option",
+          "target": "input-id"
+        },
+        {
+          "updates": "attribute",
+          "name": "required",
+          "type": "option",
+          "target": "required"
+        }
+      ]
+    }
+  ]
+}

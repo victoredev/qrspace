@@ -1,0 +1,11 @@
+{
+  "id": "h4",
+  "displayName": "Heading 4",
+  "category": "Headings",
+  "tag": "h4",
+  "classNames": "font-bold text-xl",
+  "content": {
+    "type": "value",
+    "value": "Heading 4"
+  }
+}

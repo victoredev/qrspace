@@ -1,0 +1,145 @@
+{
+  "thumbnail": "{themeUrl}/assets/img/template-images/footer-1.png",
+  "premium": false,
+  "template": [
+    {
+      "tag": "footer",
+      "classNames": "bg-gray-100 py-8 md:py-12 text-gray-500 text-sm tracking-wide",
+      "children": [
+        {
+          "instanceOfComponent": "container",
+          "componentDetails": {
+            "container": {
+              "children": [
+                {
+                  "tag": "ul",
+                  "classNames": "text-base leading-6 text-gray-500 flex flex-wrap justify-center",
+                  "children": [
+                    {
+                      "tag": "li",
+                      "classNames": "px-5 py-2",
+                      "children": [
+                        {
+                          "instanceOfComponent": "anchor",
+                          "componentDetails": {
+                            "anchor": {
+                              "content": {
+                                "type": "value",
+                                "value": "About"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "li",
+                      "classNames": "px-5 py-2",
+                      "children": [
+                        {
+                          "instanceOfComponent": "anchor",
+                          "componentDetails": {
+                            "anchor": {
+                              "content": {
+                                "type": "value",
+                                "value": "Blog"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "li",
+                      "classNames": "px-5 py-2",
+                      "children": [
+                        {
+                          "instanceOfComponent": "anchor",
+                          "componentDetails": {
+                            "anchor": {
+                              "content": {
+                                "type": "value",
+                                "value": "Contact"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "li",
+                      "classNames": "px-5 py-2",
+                      "children": [
+                        {
+                          "instanceOfComponent": "anchor",
+                          "componentDetails": {
+                            "anchor": {
+                              "content": {
+                                "type": "value",
+                                "value": "Terms"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "classNames": "mt-8 flex justify-center space-x-6",
+                  "children": [
+                    {
+                      "instanceOfComponent": "anchor",
+                      "componentDetails": {
+                        "anchor": {
+                          "children": [
+                            {
+                              "instanceOfComponent": "facebookIconBrands"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "instanceOfComponent": "anchor",
+                      "componentDetails": {
+                        "anchor": {
+                          "children": [
+                            {
+                              "instanceOfComponent": "instagramIconBrands"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "instanceOfComponent": "anchor",
+                      "componentDetails": {
+                        "anchor": {
+                          "children": [
+                            {
+                              "instanceOfComponent": "twitterSquareIconBrands"
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "classNames": "mt-8 text-center",
+                  "content": {
+                    "type": "value",
+                    "value": "© 2021 Gust, Inc. All rights reserved."
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

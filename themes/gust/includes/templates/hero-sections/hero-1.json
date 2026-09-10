@@ -1,0 +1,119 @@
+{
+  "thumbnail": "{themeUrl}/assets/img/template-images/hero-1.png",
+  "premium": true,
+  "template": [
+    {
+      "tag": "div",
+      "classNames": " bg-slate-800",
+      "children": [
+        {
+          "instanceOfComponent": "container",
+          "componentDetails": {
+            "container": {
+              "extraClassNames": "grid grid-cols-1  items-center md:grid-cols-3 gap-8 py-16 md:py-32",
+              "children": [
+                {
+                  "tag": "div",
+                  "classNames": "md:order-2 max-w-xs",
+                  "children": [
+                    {
+                      "instanceOfComponent": "image",
+                      "componentDetails": {
+                        "image": {
+                          "options": {
+                            "src": "{themeUrl}/assets/img/template-img-assets/two-people-talking-by-a-phone.png"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "tag": "div",
+                      "classNames": "text-xs text-right text-slate-300",
+                      "content": {
+                        "type": "value",
+                        "value": "Designed by Freepik"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "classNames": "md:col-span-2 space-y-8",
+                  "children": [
+                    {
+                      "tag": "h1",
+                      "classNames": "text-white font-bold text-5xl sm:text-6xl",
+                      "children": [
+                        {
+                          "tag": "span",
+                          "content": {
+                            "type": "value",
+                            "value": "It's WordPress"
+                          },
+                          "classNames": " block"
+                        },
+                        {
+                          "tag": "span",
+                          "content": {
+                            "type": "value",
+                            "value": "with Tailwind CSS"
+                          },
+                          "classNames": "block bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "content": {
+                        "type": "value",
+                        "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae purus faucibus ornare suspendisse sed."
+                      },
+                      "classNames": "text-xl text-slate-300"
+                    },
+                    {
+                      "tag": "div",
+                      "classNames": " space-x-4",
+                      "children": [
+                        {
+                          "instanceOfComponent": "button",
+                          "componentDetails": {
+                            "button": {
+                              "extraClassNames": "bg-gradient-to-r from-pink-500 to-violet-500 border-0 px-8 text-white tracking-wider",
+                              "content": {
+                                "type": "value",
+                                "value": "Buy now"
+                              },
+                              "options": {
+                                "size": "px-4 py-2 text-sm"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "instanceOfComponent": "button",
+                          "componentDetails": {
+                            "button": {
+                              "extraClassNames": "px-8  tracking-wider text-slate-700 border-0",
+                              "content": {
+                                "type": "value",
+                                "value": "Contact us"
+                              },
+                              "options": {
+                                "type": "bg-white border-secondary text-secondary",
+                                "size": "px-4 py-2 text-sm"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

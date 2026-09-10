@@ -1,0 +1,101 @@
+{
+  "id": "select",
+  "displayName": "Select",
+  "description": "Select is used to pick a value from a list of options.",
+  "category": "Data input",
+  "tag": "div",
+  "options": [
+    {
+      "name": "required",
+      "type": "select",
+      "label": "Required",
+      "modify": "none",
+      "options": [
+        {
+          "label": "No",
+          "value": "false"
+        },
+        {
+          "label": "Yes",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "name": "selectOptions",
+      "label": "Select options",
+      "modify": "none",
+      "type": "text",
+      "multiLine": true,
+      "hint": "Add one option per line. If needed, you can separate values and labels with an '='. E.g. value=Label"
+    },
+    {
+      "type": "text",
+      "label": "Field name",
+      "modify": "none",
+      "name": "name",
+      "value": "",
+      "prepopulate": "instanceId"
+    },
+    {
+      "type": "text",
+      "label": "Field ID",
+      "modify": "none",
+      "name": "id",
+      "value": "",
+      "prepopulate": "instanceId"
+    }
+  ],
+  "children": [
+    {
+      "id": "select-label",
+      "tag": "label",
+      "classNames": "block text-sm font-medium leading-6 text-gray-900",
+      "references": [
+        {
+          "updates": "attribute",
+          "name": "for",
+          "type": "option",
+          "target": "id"
+        }
+      ],
+      "children": [
+        {
+          "id": "select-label-text",
+          "tag": "span",
+          "classNames": "block",
+          "userSelect": true,
+          "content": {
+            "type": "value",
+            "value": "Label text"
+          }
+        }
+      ]
+    },
+    {
+      "id": "select-input",
+      "tag": "select",
+      "classNames": "form-select block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-primary sm:max-w-xs sm:text-sm sm:leading-6",
+      "references": [
+        {
+          "updates": "attribute",
+          "name": "name",
+          "type": "option",
+          "target": "name"
+        },
+        {
+          "updates": "attribute",
+          "name": "id",
+          "type": "option",
+          "target": "id"
+        },
+        {
+          "updates": "attribute",
+          "name": "required",
+          "type": "option",
+          "target": "required"
+        }
+      ]
+    }
+  ]
+}

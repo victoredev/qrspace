@@ -1,0 +1,352 @@
+{
+  "thumbnail": "{themeUrl}/assets/img/template-images/pricing-featured-center.png",
+  "premium": true,
+  "template": [
+    {
+      "instanceOfComponent": "container",
+      "componentDetails": {
+        "container": {
+          "children": [
+            {
+              "tag": "div",
+              "classNames": "grid grid-cols-1 gap-4 md:gap-0 md:grid-cols-3",
+              "children": [
+                {
+                  "tag": "div",
+                  "classNames": "border-4 border-primary rounded-lg p-4 md:order-2 flex flex-col",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "children": [
+                        {
+                          "tag": "div",
+                          "content": {
+                            "type": "value",
+                            "value": "Most popular"
+                          },
+                          "classNames": "text-xs text-gray-400 uppercase font-bold tracking-wider"
+                        },
+                        {
+                          "tag": "div",
+                          "content": {
+                            "type": "value",
+                            "value": "$30"
+                          },
+                          "classNames": "my-2 text-4xl font-bold text-gray-800",
+                          "children": [
+                            {
+                              "tag": "span",
+                              "content": {
+                                "type": "value",
+                                "value": "p/m"
+                              },
+                              "classNames": "text-base ml-2"
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "hr",
+                          "classNames": "my-4"
+                        },
+                        {
+                          "tag": "div",
+                          "classNames": "my-4 text-gray-500 space-y-4",
+                          "children": [
+                            {
+                              "tag": "div",
+                              "classNames": "w-8"
+                            },
+                            {
+                              "tag": "div"
+                            },
+                            {
+                              "tag": "div"
+                            },
+                            {
+                              "instanceOfComponent": "iconRow",
+                              "componentDetails": {
+                                "iconRow": {
+                                  "content": {
+                                    "type": "value",
+                                    "value": ""
+                                  }
+                                },
+                                "iconRowIconCell": {
+                                  "children": [
+                                    {
+                                      "instanceOfComponent": "checkCircleIconRegular"
+                                    }
+                                  ]
+                                },
+                                "iconRowContentCell": {
+                                  "content": {
+                                    "type": "value",
+                                    "value": "All features in starter and plus plans.\n"
+                                  }
+                                }
+                              }
+                            },
+                            {
+                              "instanceOfComponent": "iconRow",
+                              "componentDetails": {
+                                "iconRowIconCell": {
+                                  "children": [
+                                    {
+                                      "instanceOfComponent": "checkCircleIconRegular"
+                                    }
+                                  ]
+                                },
+                                "iconRowContentCell": {
+                                  "content": {
+                                    "type": "value",
+                                    "value": "Unrestricted access to all of our premium features."
+                                  }
+                                }
+                              }
+                            },
+                            {
+                              "instanceOfComponent": "iconRow",
+                              "componentDetails": {
+                                "iconRowIconCell": {
+                                  "children": [
+                                    {
+                                      "instanceOfComponent": "checkCircleIconRegular"
+                                    }
+                                  ]
+                                },
+                                "iconRowContentCell": {
+                                  "content": {
+                                    "type": "value",
+                                    "value": "24/7 chat, email, and phone support."
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "classNames": "mt-auto",
+                      "children": [
+                        {
+                          "instanceOfComponent": "button",
+                          "componentDetails": {
+                            "button": {
+                              "content": {
+                                "type": "value",
+                                "value": "Buy now"
+                              },
+                              "options": {
+                                "type": "bg-primary border-primary text-white",
+                                "width": "w-full"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "classNames": "border-2 rounded-lg p-4 md:order-1 md:mt-8 md:mb-4 md:rounded-r-none md:border-r-0 flex flex-col",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "children": [
+                        {
+                          "tag": "div",
+                          "classNames": "text-xs text-gray-400 uppercase font-bold tracking-wider",
+                          "content": {
+                            "type": "value",
+                            "value": "starter"
+                          }
+                        },
+                        {
+                          "tag": "div",
+                          "content": {
+                            "type": "value",
+                            "value": "$10"
+                          },
+                          "classNames": "my-2 text-4xl font-bold text-gray-800",
+                          "children": [
+                            {
+                              "tag": "span",
+                              "content": {
+                                "type": "value",
+                                "value": "p/m"
+                              },
+                              "classNames": "text-base ml-2"
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "hr",
+                          "classNames": "my-4"
+                        },
+                        {
+                          "tag": "div",
+                          "classNames": "my-4 text-gray-500 space-y-4",
+                          "children": [
+                            {
+                              "tag": "div"
+                            },
+                            {
+                              "instanceOfComponent": "iconRow",
+                              "componentDetails": {
+                                "iconRowIconCell": {
+                                  "children": [
+                                    {
+                                      "instanceOfComponent": "checkCircleIconRegular"
+                                    }
+                                  ]
+                                },
+                                "iconRowContentCell": {
+                                  "content": {
+                                    "type": "value",
+                                    "value": "Only the very basic features."
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "classNames": "mt-auto",
+                      "children": [
+                        {
+                          "instanceOfComponent": "button",
+                          "componentDetails": {
+                            "button": {
+                              "content": {
+                                "type": "value",
+                                "value": "Choose starter"
+                              },
+                              "options": {
+                                "width": "w-full",
+                                "size": "px-4 py-2 text-sm"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "classNames": "border-2 rounded-lg p-4 md:order-3 md:mt-8 md:mb-4 md:rounded-l-none md:border-l-0 flex flex-col",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "children": [
+                        {
+                          "tag": "div",
+                          "classNames": "text-xs text-gray-400 uppercase font-bold tracking-wider",
+                          "content": {
+                            "type": "value",
+                            "value": "Plus"
+                          }
+                        },
+                        {
+                          "tag": "div",
+                          "content": {
+                            "type": "value",
+                            "value": "$20"
+                          },
+                          "classNames": "my-2 text-4xl font-bold text-gray-800",
+                          "children": [
+                            {
+                              "tag": "span",
+                              "content": {
+                                "type": "value",
+                                "value": "p/m"
+                              },
+                              "classNames": "text-base ml-2"
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "hr",
+                          "classNames": "my-4"
+                        },
+                        {
+                          "tag": "div",
+                          "classNames": "my-4 text-gray-500 space-y-4",
+                          "children": [
+                            {
+                              "instanceOfComponent": "iconRow",
+                              "componentDetails": {
+                                "iconRowIconCell": {
+                                  "children": [
+                                    {
+                                      "instanceOfComponent": "checkCircleIconRegular"
+                                    }
+                                  ]
+                                },
+                                "iconRowContentCell": {
+                                  "content": {
+                                    "type": "value",
+                                    "value": "All the features in starter."
+                                  }
+                                }
+                              }
+                            },
+                            {
+                              "instanceOfComponent": "iconRow",
+                              "componentDetails": {
+                                "iconRowIconCell": {
+                                  "children": [
+                                    {
+                                      "instanceOfComponent": "checkCircleIconRegular"
+                                    }
+                                  ]
+                                },
+                                "iconRowContentCell": {
+                                  "content": {
+                                    "type": "value",
+                                    "value": "Access to our online community and partner service."
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "classNames": "mt-auto",
+                      "children": [
+                        {
+                          "instanceOfComponent": "button",
+                          "componentDetails": {
+                            "button": {
+                              "content": {
+                                "type": "value",
+                                "value": "Choose premium"
+                              },
+                              "options": {
+                                "width": "w-full",
+                                "size": "px-4 py-2 text-sm"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

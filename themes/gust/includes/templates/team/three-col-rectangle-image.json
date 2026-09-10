@@ -1,0 +1,417 @@
+{
+  "thumbnail": "{themeUrl}/assets/img/template-images/staff-three-cols-rectangle.png",
+  "premium": false,
+  "template": [
+    {
+      "instanceOfComponent": "container",
+      "componentDetails": {
+        "container": {
+          "children": [
+            {
+              "tag": "div",
+              "classNames": "grid grid-cols-1 md:grid-cols-3 gap-4",
+              "children": [
+                {
+                  "tag": "div",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "classNames": "bg-gray-100 h-48 rounded overflow-hidden relative",
+                      "children": [
+                        {
+                          "instanceOfComponent": "image",
+                          "componentDetails": {
+                            "image": {
+                              "classNames": "absolute left-0 top-0 h-full w-full object-cover",
+                              "options": {
+                                "src": "{themeUrl}/assets/img/template-img-assets/female-sunset-silhouette.jpeg"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "classNames": "mt-2",
+                      "children": [
+                        {
+                          "tag": "div",
+                          "content": {
+                            "type": "value",
+                            "value": "Their name"
+                          },
+                          "classNames": "text-xl font-medium mb-2"
+                        },
+                        {
+                          "tag": "div",
+                          "content": {
+                            "type": "value",
+                            "value": "Their role"
+                          },
+                          "classNames": "text-primary tracking-wider text-sm font-bold uppercase my-2"
+                        },
+                        {
+                          "tag": "div",
+                          "classNames": "space-x-4 text-gray-400",
+                          "children": [
+                            {
+                              "tag": "a",
+                              "children": [
+                                {
+                                  "instanceOfComponent": "linkedinIconBrands"
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "a",
+                              "children": [
+                                {
+                                  "instanceOfComponent": "twitterSquareIconBrands"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "classNames": "bg-gray-100 h-48 rounded overflow-hidden relative",
+                      "children": [
+                        {
+                          "instanceOfComponent": "image",
+                          "componentDetails": {
+                            "image": {
+                              "classNames": "absolute left-0 top-0 h-full w-full object-cover",
+                              "options": {
+                                "src": "{themeUrl}/assets/img/template-img-assets/male-sunset-silhouette.jpeg"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "classNames": "mt-2",
+                      "children": [
+                        {
+                          "tag": "div",
+                          "content": {
+                            "type": "value",
+                            "value": "Their name"
+                          },
+                          "classNames": "text-xl font-medium mb-2"
+                        },
+                        {
+                          "tag": "div",
+                          "content": {
+                            "type": "value",
+                            "value": "Their role"
+                          },
+                          "classNames": "text-primary tracking-wider text-sm font-bold uppercase my-2"
+                        },
+                        {
+                          "tag": "div",
+                          "classNames": "space-x-4 text-gray-400",
+                          "children": [
+                            {
+                              "tag": "a",
+                              "children": [
+                                {
+                                  "instanceOfComponent": "linkedinIconBrands"
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "a",
+                              "children": [
+                                {
+                                  "instanceOfComponent": "twitterSquareIconBrands"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "classNames": "bg-gray-100 h-48 rounded overflow-hidden relative",
+                      "children": [
+                        {
+                          "instanceOfComponent": "image",
+                          "componentDetails": {
+                            "image": {
+                              "classNames": "absolute left-0 top-0 h-full w-full object-cover",
+                              "options": {
+                                "src": "{themeUrl}/assets/img/template-img-assets/female-profile.jpeg"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "classNames": "mt-2",
+                      "children": [
+                        {
+                          "tag": "div",
+                          "content": {
+                            "type": "value",
+                            "value": "Their name"
+                          },
+                          "classNames": "text-xl font-medium mb-2"
+                        },
+                        {
+                          "tag": "div",
+                          "content": {
+                            "type": "value",
+                            "value": "Their role"
+                          },
+                          "classNames": "text-primary tracking-wider text-sm font-bold uppercase my-2"
+                        },
+                        {
+                          "tag": "div",
+                          "classNames": "space-x-4 text-gray-400",
+                          "children": [
+                            {
+                              "tag": "a",
+                              "children": [
+                                {
+                                  "instanceOfComponent": "linkedinIconBrands"
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "a",
+                              "children": [
+                                {
+                                  "instanceOfComponent": "twitterSquareIconBrands"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "classNames": "bg-gray-100 h-48 rounded overflow-hidden relative",
+                      "children": [
+                        {
+                          "instanceOfComponent": "image",
+                          "componentDetails": {
+                            "image": {
+                              "classNames": "absolute left-0 top-0 h-full w-full object-cover",
+                              "options": {
+                                "src": "{themeUrl}/assets/img/template-img-assets/male-with-cap-sunset-silhouette.jpeg"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "classNames": "mt-2",
+                      "children": [
+                        {
+                          "tag": "div",
+                          "content": {
+                            "type": "value",
+                            "value": "Their name"
+                          },
+                          "classNames": "text-xl font-medium mb-2"
+                        },
+                        {
+                          "tag": "div",
+                          "content": {
+                            "type": "value",
+                            "value": "Their role"
+                          },
+                          "classNames": "text-primary tracking-wider text-sm font-bold uppercase my-2"
+                        },
+                        {
+                          "tag": "div",
+                          "classNames": "space-x-4 text-gray-400",
+                          "children": [
+                            {
+                              "tag": "a",
+                              "children": [
+                                {
+                                  "instanceOfComponent": "linkedinIconBrands"
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "a",
+                              "children": [
+                                {
+                                  "instanceOfComponent": "twitterSquareIconBrands"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "classNames": "bg-gray-100 h-48 rounded overflow-hidden relative",
+                      "children": [
+                        {
+                          "instanceOfComponent": "image",
+                          "componentDetails": {
+                            "image": {
+                              "classNames": "absolute left-0 top-0 h-full w-full object-cover",
+                              "options": {
+                                "src": "{themeUrl}/assets/img/template-img-assets/female-in-front-of-ocean.jpeg"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "classNames": "mt-2",
+                      "children": [
+                        {
+                          "tag": "div",
+                          "content": {
+                            "type": "value",
+                            "value": "Their name"
+                          },
+                          "classNames": "text-xl font-medium mb-2"
+                        },
+                        {
+                          "tag": "div",
+                          "content": {
+                            "type": "value",
+                            "value": "Their role"
+                          },
+                          "classNames": "text-primary tracking-wider text-sm font-bold uppercase my-2"
+                        },
+                        {
+                          "tag": "div",
+                          "classNames": "space-x-4 text-gray-400",
+                          "children": [
+                            {
+                              "tag": "a",
+                              "children": [
+                                {
+                                  "instanceOfComponent": "linkedinIconBrands"
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "a",
+                              "children": [
+                                {
+                                  "instanceOfComponent": "twitterSquareIconBrands"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "classNames": "bg-gray-100 h-48 rounded overflow-hidden relative",
+                      "children": [
+                        {
+                          "instanceOfComponent": "image",
+                          "componentDetails": {
+                            "image": {
+                              "classNames": "absolute left-0 top-0 h-full w-full object-cover",
+                              "options": {
+                                "src": "{themeUrl}/assets/img/template-img-assets/girl-on-yellow-bg.jpeg"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "classNames": "mt-2",
+                      "children": [
+                        {
+                          "tag": "div",
+                          "content": {
+                            "type": "value",
+                            "value": "Their name"
+                          },
+                          "classNames": "text-xl font-medium mb-2"
+                        },
+                        {
+                          "tag": "div",
+                          "content": {
+                            "type": "value",
+                            "value": "Their role"
+                          },
+                          "classNames": "text-primary tracking-wider text-sm font-bold uppercase my-2"
+                        },
+                        {
+                          "tag": "div",
+                          "classNames": "space-x-4 text-gray-400",
+                          "children": [
+                            {
+                              "tag": "a",
+                              "children": [
+                                {
+                                  "instanceOfComponent": "linkedinIconBrands"
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "a",
+                              "children": [
+                                {
+                                  "instanceOfComponent": "twitterSquareIconBrands"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

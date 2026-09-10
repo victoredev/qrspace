@@ -1,0 +1,156 @@
+{
+  "thumbnail": "{themeUrl}/assets/img/template-images/pricing-single.png",
+  "premium": false,
+  "template": [
+    {
+      "instanceOfComponent": "container",
+      "componentDetails": {
+        "container": {
+          "children": [
+            {
+              "tag": "div",
+              "classNames": "border-4 border-primary rounded-lg p-4 grid grid-cols-1 md:grid-cols-2 gap-4 text-gray-500 ",
+              "children": [
+                {
+                  "tag": "div",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "content": {
+                        "type": "value",
+                        "value": "Most popular"
+                      },
+                      "classNames": "text-xs text-gray-400 uppercase font-bold tracking-wider"
+                    },
+                    {
+                      "tag": "div",
+                      "content": {
+                        "type": "value",
+                        "value": "$30"
+                      },
+                      "classNames": "my-2 text-4xl font-bold text-gray-800",
+                      "children": [
+                        {
+                          "tag": "span",
+                          "content": {
+                            "type": "value",
+                            "value": "p/m"
+                          },
+                          "classNames": "text-base ml-2"
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "classNames": "my-4 md:my-8",
+                      "content": {
+                        "type": "value",
+                        "value": "A price description about what this price plan contains and the benefits you'll receive from signing up."
+                      }
+                    },
+                    {
+                      "instanceOfComponent": "button",
+                      "componentDetails": {
+                        "button": {
+                          "content": {
+                            "type": "value",
+                            "value": "Buy now"
+                          },
+                          "options": {
+                            "type": "bg-primary border-primary text-white",
+                            "width": "w-full"
+                          }
+                        }
+                      }
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "classNames": "my-4 space-y-4",
+                      "children": [
+                        {
+                          "tag": "div",
+                          "classNames": "w-8"
+                        },
+                        {
+                          "tag": "div"
+                        },
+                        {
+                          "tag": "div"
+                        },
+                        {
+                          "instanceOfComponent": "iconRow",
+                          "componentDetails": {
+                            "iconRow": {
+                              "content": {
+                                "type": "value",
+                                "value": ""
+                              }
+                            },
+                            "iconRowIconCell": {
+                              "children": [
+                                {
+                                  "instanceOfComponent": "checkCircleIconRegular"
+                                }
+                              ]
+                            },
+                            "iconRowContentCell": {
+                              "content": {
+                                "type": "value",
+                                "value": "All features in starter and plus plans.\n"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "instanceOfComponent": "iconRow",
+                          "componentDetails": {
+                            "iconRowIconCell": {
+                              "children": [
+                                {
+                                  "instanceOfComponent": "checkCircleIconRegular"
+                                }
+                              ]
+                            },
+                            "iconRowContentCell": {
+                              "content": {
+                                "type": "value",
+                                "value": "Unrestricted access to all of our premium features."
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "instanceOfComponent": "iconRow",
+                          "componentDetails": {
+                            "iconRowIconCell": {
+                              "children": [
+                                {
+                                  "instanceOfComponent": "checkCircleIconRegular"
+                                }
+                              ]
+                            },
+                            "iconRowContentCell": {
+                              "content": {
+                                "type": "value",
+                                "value": "24/7 chat, email, and phone support."
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "thumbnail": "{themeUrl}/assets/img/template-images/content-alternating-text-and-image.png",
+  "premium": true,
+  "template": [
+    {
+      "instanceOfComponent": "container",
+      "componentDetails": {
+        "container": {
+          "children": [
+            {
+              "tag": "div",
+              "classNames": "space-y-16 lg:space-y-32",
+              "children": [
+                {
+                  "tag": "div",
+                  "classNames": "grid grid-cols-1 gap-4 md:grid-cols-2 items-center lg:gap-16",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "classNames": "md:order-last",
+                      "children": [
+                        {
+                          "instanceOfComponent": "image",
+                          "componentDetails": {
+                            "image": {
+                              "classNames": "rounded shadow-md",
+                              "options": {
+                                "src": "{themeUrl}/assets/img/template-img-assets/waves-on-beach.jpeg"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "classNames": "",
+                      "children": [
+                        {
+                          "instanceOfComponent": "h2"
+                        },
+                        {
+                          "tag": "div",
+                          "content": {
+                            "type": "richtext",
+                            "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                          },
+                          "classNames": "my-4 text-gray-500"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "classNames": "grid grid-cols-1 gap-4 md:grid-cols-2 items-center lg:gap-16",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "classNames": "",
+                      "children": [
+                        {
+                          "instanceOfComponent": "image",
+                          "componentDetails": {
+                            "image": {
+                              "classNames": "rounded shadow-md",
+                              "options": {
+                                "src": "{themeUrl}/assets/img/template-img-assets/waves-on-beach.jpeg"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "classNames": "",
+                      "children": [
+                        {
+                          "instanceOfComponent": "h2"
+                        },
+                        {
+                          "tag": "div",
+                          "content": {
+                            "type": "richtext",
+                            "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>"
+                          },
+                          "classNames": "my-4 text-gray-500"
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "id": "image",
+  "displayName": "Image / Picture / Photo",
+  "description": "Displays an image from the WP Media Library.",
+  "category": "Content",
+  "tag": "img",
+  "options": [
+    {
+      "name": "src",
+      "label": "Image",
+      "modify": "attribute",
+      "attributeName": "src",
+      "type": "image"
+    },
+    {
+      "name": "alt",
+      "label": "Image description / alt text",
+      "modify": "attribute",
+      "attributeName": "alt",
+      "type": "text"
+    }
+  ]
+}

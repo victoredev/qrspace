@@ -1,0 +1,113 @@
+@layer base {
+  .woocommerce-products-header {
+    @apply py-8 mb-8 space-y-8 bg-gray-100;
+  }
+
+  .woocommerce-products-header > * {
+    @apply max-w-screen-lg px-4 mx-auto;
+  }
+
+  .woocommerce-products-header .page-title {
+    @apply text-4xl font-extrabold;
+  }
+
+  .woocommerce-products-header .term-description {
+    @apply text-lg text-gray-700;
+  }
+
+  .woocommerce ul.products li.product .price,
+  .woocommerce div.product p.price,
+  .woocommerce div.product span.price,
+  .woocommerce-message::before {
+    @apply text-primary;
+  }
+
+  .woocommerce span.onsale,
+  .woocommerce #respond input#submit.alt,
+  .woocommerce a.button.alt,
+  .woocommerce button.button.alt,
+  .woocommerce input.button.alt {
+    @apply bg-primary;
+  }
+
+  .woocommerce #respond input#submit.alt:hover,
+  .woocommerce a.button.alt:hover,
+  .woocommerce button.button.alt:hover,
+  .woocommerce input.button.alt:hover {
+    @apply bg-secondary;
+  }
+
+  .woocommerce .woocommerce-Tabs-panel,
+  .woocommerce .woocommerce-MyAccount-content {
+    @apply prose;
+  }
+
+  .woocommerce .products.related > h2 {
+    @apply my-8 gust-h2;
+  }
+
+  .woocommerce-loop-product__title {
+    @apply gust-h3;
+  }
+
+  .woocommerce-message {
+    @apply border-primary;
+  }
+
+  .added_to_cart {
+    @apply ml-2;
+  }
+
+  .woocommerce ul.woocommerce-order-overview {
+    @apply mt-4;
+  }
+
+  .woocommerce .woocommerce-order-overview > li {
+    @apply mb-2;
+  }
+
+  .woocommerce input[type="text"],
+  .woocommerce input[type="email"],
+  .woocommerce input[type="url"],
+  .woocommerce input[type="password"],
+  .woocommerce input[type="number"],
+  .woocommerce input[type="date"],
+  .woocommerce input[type="datetime-local"],
+  .woocommerce input[type="month"],
+  .woocommerce input[type="search"],
+  .woocommerce input[type="tel"],
+  .woocommerce input[type="time"],
+  .woocommerce input[type="week"] {
+    @apply form-input;
+  }
+
+  .woocommerce textarea {
+    @apply form-textarea;
+  }
+
+  .woocommerce select {
+    @apply form-select;
+  }
+
+  .woocommerce select[multiple] {
+    @apply form-multiselect;
+  }
+
+  .woocommerce input[type="checkbox"] {
+    @apply form-checkbox;
+  }
+
+  .woocommerce input[type="radio"] {
+    @apply form-radio;
+  }
+
+  @screen md {
+    .woocommerce-products-header {
+      @apply py-16 mb-16;
+    }
+
+    .woocommerce-products-header .page-title {
+      @apply text-7xl;
+    }
+  }
+}

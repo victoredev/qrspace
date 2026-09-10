@@ -1,0 +1,89 @@
+{
+  "id": "submitButton",
+  "displayName": "Submit button",
+  "description": "A submit button to submit forms.",
+  "category": "Data input",
+  "tag": "button",
+  "classNames": "font-bold rounded border-2 hover:opacity-70 inline-block text-center",
+  "content": {
+    "type": "value",
+    "value": "Submit"
+  },
+  "attributes": [
+    {
+      "name": "type",
+      "type": "value",
+      "value": "submit"
+    }
+  ],
+  "options": [
+    {
+      "name": "type",
+      "label": "Type",
+      "modify": "className",
+      "type": "select",
+      "options": [
+        {
+          "label": "Default",
+          "value": "bg-gray-200 border-gray-200"
+        },
+        {
+          "label": "Primary",
+          "value": "bg-primary border-primary text-white"
+        },
+        {
+          "label": "Primary Outline",
+          "value": "bg-white border-primary text-primary"
+        },
+        {
+          "label": "Secondary",
+          "value": "bg-secondary border-secondary text-white"
+        },
+        {
+          "label": "Secondary Outline",
+          "value": "bg-white border-secondary text-secondary"
+        },
+        {
+          "label": "Error",
+          "value": "bg-error border-error text-white"
+        },
+        {
+          "label": "Error Outline",
+          "value": "bg-white border-error text-error"
+        }
+      ]
+    },
+    {
+      "name": "size",
+      "label": "Size",
+      "modify": "className",
+      "type": "select",
+      "options": [
+        {
+          "label": "Default",
+          "value": "p-4"
+        },
+        {
+          "label": "Small",
+          "value": "px-4 py-2 text-sm"
+        }
+      ]
+    },
+    {
+      "name": "width",
+      "label": "Width",
+      "modify": "className",
+      "type": "select",
+      "options": [
+        {
+          "label": "Auto",
+          "value": ""
+        },
+        {
+          "label": "Full-width",
+          "value": "w-full"
+        }
+      ]
+    }
+  ]
+}

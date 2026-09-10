@@ -1,0 +1,113 @@
+{
+  "thumbnail": "{themeUrl}/assets/img/template-images/feature-cta-with-right-cutoff-image.png",
+  "premium": true,
+  "template": [
+    {
+      "tag": "div",
+      "classNames": "overflow-hidden py-24 grid grid-cols-1 md:grid-cols-2 px-4 md:px-8 gap-12",
+
+      "children": [
+        {
+          "tag": "div",
+
+          "children": [
+            {
+              "tag": "div",
+              "classNames": "border text-gray-600 py-1 px-3 inline-block rounded-full text-sm",
+
+              "children": [
+                {
+                  "tag": "span",
+                  "content": {
+                    "type": "value",
+                    "value": "New features just released."
+                  }
+                },
+                {
+                  "tag": "a",
+                  "content": {
+                    "type": "value",
+                    "value": "Read more"
+                  },
+                  "classNames": "ml-2 text-primary font-semibold"
+                }
+              ]
+            },
+            {
+              "tag": "h2",
+              "content": {
+                "type": "value",
+                "value": "Heading text"
+              },
+              "classNames": "tracking-wide text-gray-900  font-bold text-4xl mt-4"
+            },
+            {
+              "tag": "p",
+              "content": {
+                "type": "value",
+                "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+              },
+              "classNames": "text-gray-600 mt-4 text-lg leading-8"
+            },
+            {
+              "tag": "div",
+              "classNames": "mt-8 flex gap-4",
+
+              "children": [
+                {
+                  "instanceOfComponent": "button",
+
+                  "componentDetails": {
+                    "button": {
+                      "content": {
+                        "type": "value",
+                        "value": "Main CTA"
+                      },
+                      "options": {
+                        "type": "bg-primary border-primary text-white"
+                      }
+                    }
+                  }
+                },
+                {
+                  "instanceOfComponent": "button",
+
+                  "componentDetails": {
+                    "button": {
+                      "content": {
+                        "type": "value",
+                        "value": "Secondary CTA"
+                      },
+                      "options": {
+                        "type": "bg-white border-primary text-primary"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+
+          "children": [
+            {
+              "instanceOfComponent": "image",
+
+              "componentDetails": {
+                "image": {
+                  "extraClassNames": "max-w-none md:w-[50rem] w-[44rem] rounded-2xl shadow-2xl",
+
+                  "options": {
+                    "src": "{themeUrl}/assets/img/template-img-assets/gust-app-screenshot.png"
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

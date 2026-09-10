@@ -1,0 +1,231 @@
+{
+  "thumbnail": "{themeUrl}/assets/img/template-images/content-three-column-features-no-border.png",
+  "premium": false,
+  "template": [
+    {
+      "instanceOfComponent": "container",
+      "componentDetails": {
+        "container": {
+          "children": [
+            {
+              "tag": "div",
+              "classNames": "grid grid-cols-1 gap-8 md:grid-cols-3",
+              "children": [
+                {
+                  "tag": "div",
+                  "classNames": "",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "classNames": "bg-primary w-12 h-12 text-white rounded  flex items-center justify-center",
+                      "children": [
+                        {
+                          "instanceOfComponent": "globeIconSolid"
+                        }
+                      ]
+                    },
+                    {
+                      "instanceOfComponent": "h2",
+                      "componentDetails": {
+                        "h2": {
+                          "classNames": "font-bold text-3xl mt-4",
+                          "content": {
+                            "type": "value",
+                            "value": "Heading 2"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "tag": "div",
+                      "classNames": "my-4 text-gray-500",
+                      "content": {
+                        "type": "richtext",
+                        "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisi morbi tempus iaculis urna.</p>"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "classNames": "",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "classNames": "bg-primary w-12 h-12 text-white rounded  flex items-center justify-center",
+                      "children": [
+                        {
+                          "instanceOfComponent": "envelopeIconSolid"
+                        }
+                      ]
+                    },
+                    {
+                      "instanceOfComponent": "h2",
+                      "componentDetails": {
+                        "h2": {
+                          "classNames": "font-bold text-3xl mt-4",
+                          "content": {
+                            "type": "value",
+                            "value": "Heading 2"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "tag": "div",
+                      "classNames": "my-4 text-gray-500",
+                      "content": {
+                        "type": "richtext",
+                        "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisi morbi tempus iaculis urna.</p>"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "classNames": "",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "classNames": "bg-primary w-12 h-12 text-white rounded  flex items-center justify-center",
+                      "children": [
+                        {
+                          "instanceOfComponent": "starIconSolid"
+                        }
+                      ]
+                    },
+                    {
+                      "instanceOfComponent": "h2",
+                      "componentDetails": {
+                        "h2": {
+                          "classNames": "font-bold text-3xl mt-4",
+                          "content": {
+                            "type": "value",
+                            "value": "Heading 2"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "tag": "div",
+                      "classNames": "my-4 text-gray-500",
+                      "content": {
+                        "type": "richtext",
+                        "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisi morbi tempus iaculis urna.</p>"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "classNames": "",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "classNames": "bg-primary w-12 h-12 text-white rounded  flex items-center justify-center",
+                      "children": [
+                        {
+                          "instanceOfComponent": "pencilAltIconSolid"
+                        }
+                      ]
+                    },
+                    {
+                      "instanceOfComponent": "h2",
+                      "componentDetails": {
+                        "h2": {
+                          "classNames": "font-bold text-3xl mt-4",
+                          "content": {
+                            "type": "value",
+                            "value": "Heading 2"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "tag": "div",
+                      "classNames": "my-4 text-gray-500",
+                      "content": {
+                        "type": "richtext",
+                        "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisi morbi tempus iaculis urna.</p>"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "classNames": "",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "classNames": "bg-primary w-12 h-12 text-white rounded  flex items-center justify-center",
+                      "children": [
+                        {
+                          "instanceOfComponent": "cogIconSolid"
+                        }
+                      ]
+                    },
+                    {
+                      "instanceOfComponent": "h2",
+                      "componentDetails": {
+                        "h2": {
+                          "classNames": "font-bold text-3xl mt-4",
+                          "content": {
+                            "type": "value",
+                            "value": "Heading 2"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "tag": "div",
+                      "classNames": "my-4 text-gray-500",
+                      "content": {
+                        "type": "richtext",
+                        "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisi morbi tempus iaculis urna.</p>"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "classNames": "",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "classNames": "bg-primary w-12 h-12 text-white rounded  flex items-center justify-center",
+                      "children": [
+                        {
+                          "instanceOfComponent": "saveIconSolid"
+                        }
+                      ]
+                    },
+                    {
+                      "instanceOfComponent": "h2",
+                      "componentDetails": {
+                        "h2": {
+                          "classNames": "font-bold text-3xl mt-4",
+                          "content": {
+                            "type": "value",
+                            "value": "Heading 2"
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "tag": "div",
+                      "classNames": "my-4 text-gray-500",
+                      "content": {
+                        "type": "richtext",
+                        "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisi morbi tempus iaculis urna.</p>"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

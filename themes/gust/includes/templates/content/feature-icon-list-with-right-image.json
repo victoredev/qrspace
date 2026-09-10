@@ -1,0 +1,199 @@
+{
+  "thumbnail": "{themeUrl}/assets/img/template-images/feature-icon-list-with-right-image.png",
+  "premium": false,
+  "template": [
+    {
+      "instanceOfComponent": "container",
+
+      "componentDetails": {
+        "container": {
+          "children": [
+            {
+              "tag": "div",
+              "classNames": "overflow-hidden py-24 grid grid-cols-1 md:grid-cols-2 px-4 md:px-8 gap-12",
+
+              "children": [
+                {
+                  "tag": "div",
+
+                  "children": [
+                    {
+                      "tag": "h2",
+                      "content": {
+                        "type": "value",
+                        "value": "Heading text"
+                      },
+                      "classNames": "text-primary font-bold text-2xl  tracking-wide"
+                    },
+                    {
+                      "tag": "p",
+                      "content": {
+                        "type": "value",
+                        "value": "Subheading text"
+                      },
+                      "classNames": "text-gray-900 text-4xl font-bold mt-2 tracking-wide"
+                    },
+                    {
+                      "tag": "p",
+                      "content": {
+                        "type": "value",
+                        "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                      },
+                      "classNames": "text-gray-600 mt-4 text-lg leading-8"
+                    },
+                    {
+                      "tag": "hr",
+                      "classNames": " my-8"
+                    },
+                    {
+                      "tag": "div",
+                      "classNames": " space-y-8",
+
+                      "children": [
+                        {
+                          "tag": "div",
+                          "classNames": "flex items-start",
+
+                          "children": [
+                            {
+                              "tag": "div",
+                              "classNames": "bg-primary rounded mx-auto items-center justify-center inline-flex p-4 shrink-0 mr-8 text-white",
+                              "children": [
+                                {
+                                  "instanceOfComponent": "cloudArrowDownIconHeroiconsSolid"
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "content": {
+                                    "type": "value",
+                                    "value": "Feature one"
+                                  },
+                                  "classNames": "font-semibold mb-2"
+                                },
+                                {
+                                  "tag": "p",
+                                  "content": {
+                                    "type": "value",
+                                    "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                                  },
+                                  "classNames": " text-gray-600"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "classNames": "flex items-start",
+
+                          "children": [
+                            {
+                              "tag": "div",
+                              "classNames": "bg-primary rounded mx-auto items-center justify-center inline-flex p-4 shrink-0 mr-8 text-white",
+
+                              "children": [
+                                {
+                                  "instanceOfComponent": "beakerIconHeroiconsSolid"
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "content": {
+                                    "type": "value",
+                                    "value": "Feature two"
+                                  },
+                                  "classNames": "font-semibold mb-2"
+                                },
+                                {
+                                  "tag": "p",
+                                  "content": {
+                                    "type": "value",
+                                    "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                                  },
+                                  "classNames": " text-gray-600"
+                                }
+                              ]
+                            }
+                          ]
+                        },
+                        {
+                          "tag": "div",
+                          "classNames": "flex items-start",
+
+                          "children": [
+                            {
+                              "tag": "div",
+                              "classNames": "bg-primary rounded mx-auto items-center justify-center inline-flex p-4 shrink-0 mr-8 text-white",
+
+                              "children": [
+                                {
+                                  "instanceOfComponent": "academicCapIconHeroiconsSolid"
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "div",
+
+                              "children": [
+                                {
+                                  "tag": "p",
+                                  "content": {
+                                    "type": "value",
+                                    "value": "Feature three"
+                                  },
+                                  "classNames": "font-semibold mb-2"
+                                },
+                                {
+                                  "tag": "p",
+                                  "content": {
+                                    "type": "value",
+                                    "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                                  },
+                                  "classNames": " text-gray-600"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+
+                  "children": [
+                    {
+                      "instanceOfComponent": "image",
+
+                      "componentDetails": {
+                        "image": {
+                          "extraClassNames": " rounded-2xl shadow-2xl",
+
+                          "options": {
+                            "src": "{themeUrl}/assets/img/template-img-assets/gust-app-screenshot.png"
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

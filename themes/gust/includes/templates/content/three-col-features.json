@@ -1,0 +1,189 @@
+{
+  "thumbnail": "{themeUrl}/assets/img/template-images/content-three-column-features.png",
+  "premium": false,
+  "template": [
+    {
+      "instanceOfComponent": "container",
+      "componentDetails": {
+        "container": {
+          "children": [
+            {
+              "tag": "div",
+              "classNames": "grid grid-cols-1 gap-8 md:grid-cols-3",
+              "children": [
+                {
+                  "tag": "div",
+                  "classNames": "pt-6",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "classNames": "relative border rounded p-4",
+                      "children": [
+                        {
+                          "tag": "div",
+                          "classNames": "border w-12 h-12 rounded-full absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white flex items-center justify-center text-gray-500",
+                          "children": [
+                            {
+                              "instanceOfComponent": "globeIconSolid"
+                            }
+                          ]
+                        },
+                        {
+                          "instanceOfComponent": "h2",
+                          "componentDetails": {
+                            "h2": {
+                              "classNames": "font-bold text-3xl mt-6",
+                              "content": {
+                                "type": "value",
+                                "value": "Heading 2"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "tag": "div",
+                          "classNames": "my-4 text-gray-500",
+                          "content": {
+                            "type": "richtext",
+                            "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisi morbi tempus iaculis urna.</p>"
+                          }
+                        },
+                        {
+                          "instanceOfComponent": "button",
+                          "componentDetails": {
+                            "button": {
+                              "content": {
+                                "type": "value",
+                                "value": "Button"
+                              },
+                              "options": {
+                                "size": "px-4 py-2 text-sm",
+                                "width": "w-full"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "classNames": "pt-6",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "classNames": "relative border rounded p-4",
+                      "children": [
+                        {
+                          "tag": "div",
+                          "classNames": "border w-12 h-12 rounded-full absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white flex items-center justify-center text-gray-500",
+                          "children": [
+                            {
+                              "instanceOfComponent": "envelopeIconSolid"
+                            }
+                          ]
+                        },
+                        {
+                          "instanceOfComponent": "h2",
+                          "componentDetails": {
+                            "h2": {
+                              "classNames": "font-bold text-3xl mt-6",
+                              "content": {
+                                "type": "value",
+                                "value": "Heading 2"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "tag": "div",
+                          "classNames": "my-4 text-gray-500",
+                          "content": {
+                            "type": "richtext",
+                            "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisi morbi tempus iaculis urna.</p>"
+                          }
+                        },
+                        {
+                          "instanceOfComponent": "button",
+                          "componentDetails": {
+                            "button": {
+                              "content": {
+                                "type": "value",
+                                "value": "Button"
+                              },
+                              "options": {
+                                "size": "px-4 py-2 text-sm",
+                                "width": "w-full"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "classNames": "pt-6",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "classNames": "relative border rounded p-4",
+                      "children": [
+                        {
+                          "tag": "div",
+                          "classNames": "border w-12 h-12 rounded-full absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-white flex items-center justify-center text-gray-500",
+                          "children": [
+                            {
+                              "instanceOfComponent": "starIconSolid"
+                            }
+                          ]
+                        },
+                        {
+                          "instanceOfComponent": "h2",
+                          "componentDetails": {
+                            "h2": {
+                              "classNames": "font-bold text-3xl mt-6",
+                              "content": {
+                                "type": "value",
+                                "value": "Heading 2"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "tag": "div",
+                          "classNames": "my-4 text-gray-500",
+                          "content": {
+                            "type": "richtext",
+                            "value": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Facilisi morbi tempus iaculis urna.</p>"
+                          }
+                        },
+                        {
+                          "instanceOfComponent": "button",
+                          "componentDetails": {
+                            "button": {
+                              "content": {
+                                "type": "value",
+                                "value": "Button"
+                              },
+                              "options": {
+                                "size": "px-4 py-2 text-sm",
+                                "width": "w-full"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

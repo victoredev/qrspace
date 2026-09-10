@@ -1,0 +1,52 @@
+{
+  "thumbnail": "{themeUrl}/assets/img/template-images/footer-2.png",
+  "premium": false,
+  "template": [
+    {
+      "tag": "footer",
+      "classNames": "bg-gray-100 py-8 md:py-12 text-gray-500 text-sm tracking-wide",
+      "children": [
+        {
+          "instanceOfComponent": "container",
+          "componentDetails": {
+            "container": {
+              "children": [
+                {
+                  "tag": "div",
+                  "classNames": "md:flex justify-between",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "children": [
+                        {
+                          "instanceOfComponent": "image",
+                          "componentDetails": {
+                            "image": {
+                              "classNames": "w-36",
+                              "options": {
+                                "src": "/wp-content/themes/gust/assets/img/logo.png",
+                                "alt": "Logo"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "classNames": "text-center md:text-right",
+                      "content": {
+                        "type": "value",
+                        "value": "© 2021 Gust, Inc. All rights reserved."
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

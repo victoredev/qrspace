@@ -1,0 +1,96 @@
+{
+  "id": "heroImageSlide",
+  "displayName": "Hero Image Slide",
+  "description": "Use with the Slider component to add a slide with a hero image and content on top of the image.",
+  "category": "Slider",
+  "tag": "div",
+  "classNames": "relative flex w-full",
+  "options": [
+    {
+      "name": "childPosition",
+      "label": "Text Position",
+      "modify": "className",
+      "type": "select",
+      "options": [
+        {
+          "label": "Center",
+          "value": "items-center justify-center text-center"
+        },
+        {
+          "label": "Left Center",
+          "value": "items-center"
+        },
+        {
+          "label": "Right Center",
+          "value": "items-center justify-end text-right"
+        },
+        {
+          "label": "Top Center",
+          "value": "justify-center text-center"
+        },
+        {
+          "label": "Bottom Center",
+          "value": "items-end justify-center text-center"
+        },
+        {
+          "label": "Top Left",
+          "value": "justify-start"
+        },
+        {
+          "label": "Bottom Left",
+          "value": "items-end"
+        },
+        {
+          "label": "Top Right",
+          "value": "justify-end text-right"
+        },
+        {
+          "label": "Bottom Right",
+          "value": "items-end justify-end text-right"
+        }
+      ]
+    }
+  ],
+  "children": [
+    {
+      "id": "heroImageSlideImageContainer",
+      "tag": "div",
+      "classNames": "absolute inset-0",
+      "children": [
+        {
+          "id": "heroImageSlideImage",
+          "tag": "img",
+          "classNames": "absolute top-0 left-0 w-full h-full object-cover object-center",
+          "userSelect": true,
+          "options": [
+            {
+              "name": "src",
+              "label": "Image",
+              "type": "image",
+              "modify": "attribute",
+              "attributeName": "src"
+            },
+            {
+              "name": "alt",
+              "label": "Image Title / Alt Text",
+              "type": "text",
+              "modify": "attribute",
+              "attributeName": "alt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "heroImageSlideContent",
+      "tag": "div",
+      "allowChildren": true,
+      "classNames": "relative p-10 w-2/3",
+      "userSelect": true,
+      "content": {
+        "type": "richtext",
+        "value": "<h2>Slide title</h2><p>Edit the slide content or drag and drop components.</p>"
+      }
+    }
+  ]
+}

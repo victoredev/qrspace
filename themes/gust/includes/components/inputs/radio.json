@@ -1,0 +1,98 @@
+{
+  "id": "radio",
+  "displayName": "Radio",
+  "description": "Radios are used to select or deselect a single value.",
+  "category": "Data input",
+  "tag": "div",
+  "options": [
+    {
+      "name": "required",
+      "type": "select",
+      "label": "Required",
+      "modify": "none",
+      "options": [
+        {
+          "label": "No",
+          "value": "false"
+        },
+        {
+          "label": "Yes",
+          "value": "true"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "label": "Value",
+      "name": "value",
+      "modify": "none",
+      "value": ""
+    },
+    {
+      "type": "text",
+      "label": "Field name",
+      "name": "name",
+      "modify": "none",
+      "value": "",
+      "prepopulate": "instanceId"
+    }
+  ],
+  "children": [
+    {
+      "id": "radio-label",
+      "tag": "label",
+      "classNames": "font-medium text-gray-900 text-sm leading-6 flex gap-x-3",
+      "children": [
+        {
+          "id": "radio-input-wrapper",
+          "tag": "div",
+          "classNames": "h-6 flex items-center",
+          "children": [
+            {
+              "id": "radio-input",
+              "tag": "input",
+              "classNames": "form-radio h-4 w-4 border-gray-300 text-primary focus:ring-primary",
+              "attributes": [
+                {
+                  "type": "value",
+                  "name": "type",
+                  "value": "radio"
+                }
+              ],
+              "references": [
+                {
+                  "updates": "attribute",
+                  "name": "name",
+                  "type": "option",
+                  "target": "name"
+                },
+                {
+                  "updates": "attribute",
+                  "name": "value",
+                  "type": "option",
+                  "target": "value"
+                },
+                {
+                  "updates": "attribute",
+                  "name": "required",
+                  "type": "option",
+                  "target": "required"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "id": "radio-label-text",
+          "tag": "span",
+          "classNames": "",
+          "userSelect": true,
+          "content": {
+            "type": "value",
+            "value": "Label text"
+          }
+        }
+      ]
+    }
+  ]
+}

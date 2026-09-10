@@ -1,0 +1,24 @@
+{
+  "id": "iconRow",
+  "displayName": "Icon Row",
+  "description": "Adds a grid with a space or an icon on the left and content on the right.",
+  "tag": "div",
+  "category": "Layout",
+  "classNames": "grid grid-cols-1p5-auto gap-4",
+  "children": [
+    {
+      "id": "iconRowIconCell",
+      "tag": "div",
+      "allowChildren": true
+    },
+    {
+      "id": "iconRowContentCell",
+      "tag": "div",
+      "allowChildren": true,
+      "content": {
+        "type": "value",
+        "value": "Icon row content, drag and drop your icon into the space on the left."
+      }
+    }
+  ]
+}

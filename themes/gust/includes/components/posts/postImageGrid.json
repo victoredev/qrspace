@@ -1,0 +1,76 @@
+{
+  "id": "postImageGrid",
+  "displayName": "Post Image Grid",
+  "description": "Displays a grid of post images with the title in front of the image.",
+  "category": "Posts",
+  "tag": "div",
+  "context": {
+    "type": "loop",
+    "postType": "post"
+  },
+  "classNames": "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2",
+  "children": [
+    {
+      "id": "postImageGridCard",
+      "displayName": "Post Image Card",
+      "category": "Posts",
+      "tag": "a",
+      "classNames": "flex relative bg-gray-800 items-end min-h-40 rounded overflow-hidden min-h-[180px]",
+      "useContextLoop": true,
+      "attributes": [
+        {
+          "type": "function",
+          "name": "href",
+          "value": "get_the_permalink"
+        }
+      ],
+      "children": [
+        {
+          "tag": "img",
+          "id": "postCardImageWrap",
+          "classNames": "absolute inset-0",
+          "children": [
+            {
+              "tag": "img",
+              "id": "postImageGridCardImage",
+              "classNames": "absolute left-0 top-0 w-full h-full object-cover object-center",
+              "attributes": [
+                {
+                  "type": "function",
+                  "name": "src",
+                  "value": "get_the_post_thumbnail_url"
+                },
+                {
+                  "type": "function",
+                  "name": "alt",
+                  "value": "get_the_title"
+                }
+              ]
+            },
+            {
+              "tag": "div",
+              "id": "postCardImageOverlay",
+              "classNames": "bg-black opacity-50 absolute inset-0"
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "id": "postImageGridCardContentWrap",
+          "classNames": "p-2 relative text-white",
+          "children": [
+            {
+              "tag": "h2",
+              "id": "postImageGridCardHeading",
+              "classNames": "font-bold text-3xl",
+              "content": {
+                "type": "function",
+                "value": "get_the_title"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

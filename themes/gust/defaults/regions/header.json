@@ -1,0 +1,244 @@
+[
+  {
+    "tag": "div",
+    "classNames": "py-4",
+    "instanceId": "86WMQBZKYJNSG40buJvRa",
+    "repeaterItems": [],
+    "children": [
+      {
+        "instanceOfComponent": "container",
+        "instanceId": "3PreUN3FXJhcaMaRX0sM2",
+        "repeaterItems": [],
+        "children": [],
+        "componentDetails": {
+          "container": {
+            "children": [
+              {
+                "tag": "div",
+                "classNames": "flex justify-between items-center",
+                "instanceId": "7aLmp0dHoBzuZQkFw3cWk",
+                "repeaterItems": [],
+                "children": [
+                  {
+                    "tag": "div",
+                    "content": {
+                      "type": "value",
+                      "value": ""
+                    },
+                    "instanceId": "tLI42it0zBadCnRpU7aCf",
+                    "repeaterItems": [],
+                    "children": [
+                      {
+                        "tag": "a",
+                        "attributes": [
+                          {
+                            "type": "value",
+                            "name": "href",
+                            "value": "/"
+                          }
+                        ],
+                        "instanceId": "hTGfZ_FEp_9O527i-R4Yn",
+                        "repeaterItems": [],
+                        "children": [
+                          {
+                            "instanceOfComponent": "image",
+                            "instanceId": "2AgHbdNH88-Zk3l7OgXrT",
+                            "repeaterItems": [],
+                            "children": [],
+                            "componentDetails": {
+                              "image": {
+                                "classNames": "w-36",
+                                "children": [],
+                                "options": {
+                                  "src": "/wp-content/themes/gust/assets/img/logo.png",
+                                  "alt": "Gust Logo"
+                                }
+                              }
+                            }
+                          }
+                        ],
+                        "componentDetails": {}
+                      }
+                    ],
+                    "componentDetails": {}
+                  },
+                  {
+                    "tag": "div",
+                    "content": {
+                      "type": "value",
+                      "value": ""
+                    },
+                    "classNames": "flex",
+                    "instanceId": "ALWFs8de4IYPxEb2_C3nz",
+                    "repeaterItems": [],
+                    "children": [
+                      {
+                        "tag": "button",
+                        "classNames": "p-2 md:hidden toggle-m-nav",
+                        "attributes": [
+                          {
+                            "type": "value",
+                            "name": "aria-label",
+                            "value": "Open menu"
+                          }
+                        ],
+                        "instanceId": "OXyjQExMMhzWVC_Y3eRWi",
+                        "repeaterItems": [],
+                        "children": [
+                          {
+                            "instanceOfComponent": "barsIconSolid",
+                            "instanceId": "fua4fqvothJ4kZmny4LsS",
+                            "repeaterItems": [],
+                            "children": [],
+                            "componentDetails": {
+                              "barsIconSolid": {
+                                "classNames": "w-6 inline-block",
+                                "children": []
+                              }
+                            }
+                          }
+                        ],
+                        "componentDetails": {}
+                      },
+                      {
+                        "tag": "div",
+                        "classNames": "z-50 fixed inset-0 bg-gray-100 p-4 md:visible md:relative md:bg-transparent md:transform md:translate-x-0 gust-mobile-nav gust-mobile-nav--closed",
+                        "instanceId": "3wkbsBbFQ2xrpIbSbyDEm",
+                        "repeaterItems": [],
+                        "children": [
+                          {
+                            "tag": "div",
+                            "classNames": "text-right mb-4 md:hidden",
+                            "instanceId": "KJDNuLls_uOT-5-LmLSbE",
+                            "repeaterItems": [],
+                            "children": [
+                              {
+                                "tag": "button",
+                                "classNames": "p-2  toggle-m-nav",
+                                "attributes": [
+                                  {
+                                    "type": "value",
+                                    "name": "aria-label",
+                                    "value": "Close menu"
+                                  }
+                                ],
+                                "instanceId": "b3_WZg3ivKFqCxWy2sqDg",
+                                "repeaterItems": [],
+                                "children": [
+                                  {
+                                    "instanceOfComponent": "timesIconSolid",
+                                    "instanceId": "4MqppLhVYesjvdo9MWnOn",
+                                    "repeaterItems": [],
+                                    "children": [],
+                                    "componentDetails": {
+                                      "timesIconSolid": {
+                                        "classNames": "w-6 inline-block",
+                                        "children": []
+                                      }
+                                    }
+                                  }
+                                ],
+                                "componentDetails": {}
+                              }
+                            ],
+                            "componentDetails": {}
+                          },
+                          {
+                            "tag": "nav",
+                            "content": {
+                              "type": "filter",
+                              "value": "gust_main_nav"
+                            },
+                            "instanceId": "oVstgDaO3KSKSPAgSUNe6",
+                            "repeaterItems": [],
+                            "children": [],
+                            "componentDetails": {}
+                          }
+                        ],
+                        "componentDetails": {}
+                      },
+                      {
+                        "tag": "button",
+                        "classNames": "ml-2 px-2 gust-toggle-search",
+                        "instanceId": "g4cjVoKqH8GBEePzJtmUH",
+                        "repeaterItems": [],
+                        "children": [
+                          {
+                            "instanceOfComponent": "searchIconSolid",
+                            "instanceId": "gYsp7t34C9oCYaUJg4Rc4",
+                            "repeaterItems": [],
+                            "children": [],
+                            "componentDetails": {
+                              "searchIconSolid": {
+                                "classNames": "w-6 inline-block",
+                                "children": []
+                              }
+                            }
+                          }
+                        ],
+                        "componentDetails": {}
+                      },
+                      {
+                        "tag": "div",
+                        "classNames": "z-50 fixed inset-0 bg-gray-50 bg-opacity-60 backdrop-blur p-4 gust-search--closed gust-search",
+                        "instanceId": "D3oaYuTDGFJw9uNolJaO2",
+                        "repeaterItems": [],
+                        "children": [
+                          {
+                            "instanceId": "nOf8nLdsp9v3OYccEq3h_",
+                            "tag": "div",
+                            "classNames": "p-8 max-w-screen-sm mx-auto bg-white rounded-lg shadow mt-8 gust-search__container  transform -translate-y-1/2 transition-transform ease-in relative",
+                            "children": [
+                              {
+                                "tag": "div",
+                                "content": {
+                                  "type": "filter",
+                                  "value": "gust_search"
+                                },
+                                "instanceId": "_ATgKgTu7P37cOhEER66A",
+                                "repeaterItems": [],
+                                "children": [],
+                                "componentDetails": {}
+                              },
+                              {
+                                "tag": "div",
+                                "classNames": "absolute bottom-2 text-gray-400 text-sm",
+                                "instanceId": "b4VC1AbXyuf5o186ZtAvk",
+                                "repeaterItems": [],
+                                "children": [
+                                  {
+                                    "tag": "button",
+                                    "classNames": "gust-toggle-search",
+                                    "instanceId": "51EVdWnS1BbzH-xUhERC3",
+                                    "repeaterItems": [],
+                                    "content": {
+                                      "type": "value",
+                                      "value": "Close or esc"
+                                    },
+                                    "children": [],
+                                    "componentDetails": {}
+                                  }
+                                ],
+                                "componentDetails": {}
+                              }
+                            ],
+                            "componentDetails": {},
+                            "repeaterItems": []
+                          }
+                        ],
+                        "componentDetails": {}
+                      }
+                    ],
+                    "componentDetails": {}
+                  }
+                ],
+                "componentDetails": {}
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "componentDetails": {}
+  }
+]

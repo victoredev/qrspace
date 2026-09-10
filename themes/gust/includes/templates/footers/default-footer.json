@@ -1,0 +1,123 @@
+{
+  "thumbnail": "{themeUrl}/assets/img/template-images/footer-default.png",
+  "premium": false,
+  "template": [
+    {
+      "tag": "footer",
+      "classNames": "bg-gray-100 py-8 md:py-12 text-gray-500 text-sm tracking-wide",
+      "children": [
+        {
+          "instanceOfComponent": "container",
+          "componentDetails": {
+            "container": {
+              "children": [
+                {
+                  "instanceOfComponent": "grid",
+                  "componentDetails": {
+                    "grid": {
+                      "children": [
+                        {
+                          "instanceOfComponent": "column",
+                          "componentDetails": {
+                            "column": {
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "content": {
+                                    "type": "value",
+                                    "value": "Column 1"
+                                  },
+                                  "classNames": "text-xs font-medium uppercase tracking-wide text-gray-900"
+                                },
+                                {
+                                  "tag": "p",
+                                  "classNames": "mt-4",
+                                  "content": {
+                                    "type": "value",
+                                    "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                                  }
+                                }
+                              ],
+                              "options": {
+                                "width": "col-span-12",
+                                "mdWidth": "md:col-span-4",
+                                "lgWidth": ""
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "instanceOfComponent": "column",
+                          "componentDetails": {
+                            "column": {
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "classNames": "text-xs font-medium uppercase tracking-wide text-gray-900",
+                                  "content": {
+                                    "type": "value",
+                                    "value": "Column 2"
+                                  }
+                                },
+                                {
+                                  "tag": "p",
+                                  "content": {
+                                    "type": "value",
+                                    "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n"
+                                  },
+                                  "classNames": "mt-4"
+                                }
+                              ],
+                              "options": {
+                                "width": "col-span-12",
+                                "mdWidth": "md:col-span-4",
+                                "lgWidth": "lg:col-span-4"
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "instanceOfComponent": "column",
+                          "componentDetails": {
+                            "column": {
+                              "children": [
+                                {
+                                  "tag": "div",
+                                  "classNames": "text-xs font-medium uppercase tracking-wide text-gray-900",
+                                  "content": {
+                                    "type": "value",
+                                    "value": "Column 3"
+                                  }
+                                },
+                                {
+                                  "tag": "p",
+                                  "classNames": "mt-4",
+                                  "content": {
+                                    "type": "value",
+                                    "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n\n"
+                                  }
+                                }
+                              ],
+                              "options": {
+                                "width": "col-span-12",
+                                "mdWidth": "md:col-span-4",
+                                "lgWidth": ""
+                              }
+                            }
+                          }
+                        }
+                      ],
+                      "options": {
+                        "colSpacing": "gap-2"
+                      }
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

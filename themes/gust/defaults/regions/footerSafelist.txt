@@ -1,0 +1,1 @@
+bg-gray-100 py-8 md:py-12 text-gray-500 text-sm tracking-wide px-4 max-w-screen-lg mx-auto grid grid-cols-12 text-xs font-medium uppercase text-gray-900 mt-4 col-span-12 md:col-span-4 p-2 lg:col-span-4 gap-2

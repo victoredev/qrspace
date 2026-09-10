@@ -1,0 +1,109 @@
+{
+  "id": "postGrid",
+  "displayName": "Post Grid",
+  "description": "Displays a grid of Posts with an image above and content below.",
+  "category": "Posts",
+  "tag": "div",
+  "context": {
+    "type": "loop",
+    "postType": "post"
+  },
+  "classNames": "grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-2",
+  "children": [
+    {
+      "id": "postGridCard",
+      "displayName": "Post Card",
+      "category": "Posts",
+      "tag": "div",
+      "useContextLoop": true,
+      "classNames": "flex flex-col border rounded overflow-hidden",
+      "children": [
+        {
+          "tag": "div",
+          "id": "postGridCardImageWrap",
+          "classNames": "relative h-32 bg-gray-100",
+          "children": [
+            {
+              "tag": "img",
+              "id": "postGridCardImage",
+              "classNames": "absolute left-0 top-0 w-full h-full object-cover object-center",
+              "attributes": [
+                {
+                  "type": "function",
+                  "name": "src",
+                  "value": "get_the_post_thumbnail_url"
+                },
+                {
+                  "type": "function",
+                  "name": "alt",
+                  "value": "get_the_title"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "tag": "div",
+          "id": "postGridCardContentWrap",
+          "classNames": "p-4 bg-white flex-grow flex flex-col",
+          "children": [
+            {
+              "tag": "h2",
+              "id": "postGridCardHeading",
+              "classNames": "font-bold text-3xl",
+              "children": [
+                {
+                  "tag": "a",
+                  "id": "postGridCardHeadingLink",
+                  "content": {
+                    "type": "function",
+                    "value": "get_the_title"
+                  },
+                  "attributes": [
+                    {
+                      "type": "function",
+                      "name": "href",
+                      "value": "get_the_permalink"
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "tag": "p",
+              "id": "postGridCardExcerpt",
+              "content": {
+                "type": "function",
+                "value": "get_the_excerpt"
+              },
+              "classNames": "my-2"
+            },
+            {
+              "tag": "div",
+              "id": "postGridCardReadMoreWrap",
+              "classNames": "mt-auto",
+              "children": [
+                {
+                  "id": "postGridCardReadMore",
+                  "tag": "a",
+                  "content": {
+                    "type": "value",
+                    "value": "Read more"
+                  },
+                  "classNames": "underline",
+                  "attributes": [
+                    {
+                      "type": "function",
+                      "name": "href",
+                      "value": "get_the_permalink"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

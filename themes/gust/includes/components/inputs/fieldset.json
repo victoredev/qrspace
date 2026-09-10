@@ -1,0 +1,31 @@
+{
+  "id": "fieldset",
+  "displayName": "Fieldset",
+  "description": "Use a fieldset to group inputs, like radio and checkboxes",
+  "category": "Data input",
+  "tag": "div",
+  "children": [
+    {
+      "id": "fieldset-inner",
+      "tag": "fieldset",
+      "children": [
+        {
+          "id": "fieldset-legend",
+          "tag": "legend",
+          "classNames": "block text-sm font-medium leading-6 text-gray-900 w-full",
+          "userSelect": true,
+          "content": {
+            "type": "value",
+            "value": "Fieldset label"
+          }
+        },
+        {
+          "id": "fieldset-body",
+          "tag": "div",
+          "classNames": "space-y-2",
+          "allowChildren": true
+        }
+      ]
+    }
+  ]
+}

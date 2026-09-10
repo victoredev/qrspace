@@ -1,0 +1,78 @@
+{
+  "id": "postListItem",
+  "displayName": "Post List Item",
+  "description": "Displays the basic post details: title, excerpt, and read more link.",
+  "category": "Posts",
+  "tag": "div",
+  "children": [
+    {
+      "id": "postListItemDate",
+      "tag": "p",
+      "content": {
+        "type": "function",
+        "value": "get_the_date"
+      },
+      "classNames": "text-gray-500 text-sm font-medium"
+    },
+    {
+      "id": "postListItemTitleWrap",
+      "tag": "div",
+      "classNames": "my-2",
+      "children": [
+        {
+          "id": "postListItemAnchor",
+          "tag": "a",
+          "attributes": [
+            {
+              "name": "href",
+              "type": "function",
+              "value": "get_the_permalink"
+            }
+          ],
+          "children": [
+            {
+              "id": "postListItemHeading",
+              "tag": "h2",
+              "classNames": "font-bold text-3xl",
+              "content": {
+                "type": "function",
+                "value": "get_the_title"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "postListItemExcerpt",
+      "tag": "div",
+      "content": {
+        "type": "function",
+        "value": "get_the_excerpt"
+      },
+      "classNames": "text-gray-700"
+    },
+    {
+      "id": "postListItemReadMoreWrap",
+      "tag": "p",
+      "classNames": "mt-4 text-gray-500 text-sm font-medium",
+      "children": [
+        {
+          "id": "postListItemReadMore",
+          "tag": "a",
+          "attributes": [
+            {
+              "name": "href",
+              "type": "function",
+              "value": "get_the_permalink"
+            }
+          ],
+          "content": {
+            "type": "value",
+            "value": "Read more"
+          }
+        }
+      ]
+    }
+  ]
+}

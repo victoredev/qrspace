@@ -1,0 +1,246 @@
+{
+  "thumbnail": "{themeUrl}/assets/img/template-images/staff-single-col-profile-left.png",
+  "premium": true,
+  "template": [
+    {
+      "instanceOfComponent": "container",
+      "componentDetails": {
+        "container": {
+          "children": [
+            {
+              "tag": "div",
+              "classNames": "grid grid-cols-1 gap-4",
+              "children": [
+                {
+                  "tag": "div",
+                  "classNames": "md:flex",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "classNames": "bg-gray-100 h-80 w-60 mb-4 rounded overflow-hidden relative md:mr-4 flex-shrink-0",
+                      "children": [
+                        {
+                          "instanceOfComponent": "image",
+                          "componentDetails": {
+                            "image": {
+                              "classNames": "absolute left-0 top-0 h-full w-full object-cover",
+                              "options": {
+                                "src": "{themeUrl}/assets/img/template-img-assets/female-sunset-silhouette.jpeg"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "classNames": "flex-grow",
+                      "children": [
+                        {
+                          "tag": "div",
+                          "content": {
+                            "type": "value",
+                            "value": "Their name"
+                          },
+                          "classNames": "text-xl font-medium mb-2"
+                        },
+                        {
+                          "tag": "div",
+                          "content": {
+                            "type": "value",
+                            "value": "Their role"
+                          },
+                          "classNames": "text-primary tracking-wider text-sm font-bold uppercase my-2"
+                        },
+                        {
+                          "tag": "div",
+                          "classNames": "my-4 text-gray-500",
+                          "content": {
+                            "type": "value",
+                            "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                          }
+                        },
+                        {
+                          "tag": "div",
+                          "classNames": "space-x-4 text-gray-400",
+                          "children": [
+                            {
+                              "tag": "a",
+                              "children": [
+                                {
+                                  "instanceOfComponent": "linkedinIconBrands"
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "a",
+                              "children": [
+                                {
+                                  "instanceOfComponent": "twitterSquareIconBrands"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "classNames": "md:flex",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "classNames": "bg-gray-100 h-80 w-60 mb-4 rounded overflow-hidden relative md:mr-4 flex-shrink-0",
+                      "children": [
+                        {
+                          "instanceOfComponent": "image",
+                          "componentDetails": {
+                            "image": {
+                              "classNames": "absolute left-0 top-0 h-full w-full object-cover",
+                              "options": {
+                                "src": "{themeUrl}/assets/img/template-img-assets/male-sunset-silhouette.jpeg"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "classNames": "flex-grow",
+                      "children": [
+                        {
+                          "tag": "div",
+                          "content": {
+                            "type": "value",
+                            "value": "Their name"
+                          },
+                          "classNames": "text-xl font-medium mb-2"
+                        },
+                        {
+                          "tag": "div",
+                          "content": {
+                            "type": "value",
+                            "value": "Their role"
+                          },
+                          "classNames": "text-primary tracking-wider text-sm font-bold uppercase my-2"
+                        },
+                        {
+                          "tag": "div",
+                          "classNames": "my-4 text-gray-500",
+                          "content": {
+                            "type": "value",
+                            "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                          }
+                        },
+                        {
+                          "tag": "div",
+                          "classNames": "space-x-4 text-gray-400",
+                          "children": [
+                            {
+                              "tag": "a",
+                              "children": [
+                                {
+                                  "instanceOfComponent": "linkedinIconBrands"
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "a",
+                              "children": [
+                                {
+                                  "instanceOfComponent": "twitterSquareIconBrands"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "tag": "div",
+                  "classNames": "md:flex",
+                  "children": [
+                    {
+                      "tag": "div",
+                      "classNames": "bg-gray-100 h-80 w-60 mb-4 rounded overflow-hidden relative md:mr-4 flex-shrink-0",
+                      "children": [
+                        {
+                          "instanceOfComponent": "image",
+                          "componentDetails": {
+                            "image": {
+                              "classNames": "absolute left-0 top-0 h-full w-full object-cover",
+                              "options": {
+                                "src": "{themeUrl}/assets/img/template-img-assets/female-profile.jpeg"
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    {
+                      "tag": "div",
+                      "classNames": "flex-grow",
+                      "children": [
+                        {
+                          "tag": "div",
+                          "content": {
+                            "type": "value",
+                            "value": "Their name"
+                          },
+                          "classNames": "text-xl font-medium mb-2"
+                        },
+                        {
+                          "tag": "div",
+                          "content": {
+                            "type": "value",
+                            "value": "Their role"
+                          },
+                          "classNames": "text-primary tracking-wider text-sm font-bold uppercase my-2"
+                        },
+                        {
+                          "tag": "div",
+                          "classNames": "my-4 text-gray-500",
+                          "content": {
+                            "type": "value",
+                            "value": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+                          }
+                        },
+                        {
+                          "tag": "div",
+                          "classNames": "space-x-4 text-gray-400",
+                          "children": [
+                            {
+                              "tag": "a",
+                              "children": [
+                                {
+                                  "instanceOfComponent": "linkedinIconBrands"
+                                }
+                              ]
+                            },
+                            {
+                              "tag": "a",
+                              "children": [
+                                {
+                                  "instanceOfComponent": "twitterSquareIconBrands"
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

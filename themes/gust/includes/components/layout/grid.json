@@ -1,0 +1,35 @@
+{
+  "id": "grid",
+  "displayName": "Grid",
+  "description": "Creates a 12 point grid. Add a Column component to create grid layouts.",
+  "tag": "div",
+  "category": "Layout",
+  "classNames": "grid grid-cols-12",
+  "allowChildren": true,
+  "options": [
+    {
+      "name": "colSpacing",
+      "label": "Column spacing",
+      "modify": "className",
+      "type": "select",
+      "options": [
+        {
+          "label": "Small",
+          "value": "gap-2"
+        },
+        {
+          "label": "Normal",
+          "value": "gap-4"
+        },
+        {
+          "label": "None",
+          "value": "gap-0"
+        },
+        {
+          "label": "Large",
+          "value": "gap-8"
+        }
+      ]
+    }
+  ]
+}

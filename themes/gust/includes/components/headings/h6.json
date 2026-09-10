@@ -1,0 +1,11 @@
+{
+  "id": "h6",
+  "displayName": "Heading 6",
+  "category": "Headings",
+  "tag": "h6",
+  "classNames": "font-bold",
+  "content": {
+    "type": "value",
+    "value": "Heading 6"
+  }
+}

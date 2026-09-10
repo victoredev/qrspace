@@ -1,0 +1,131 @@
+@layer utilities {
+  .max-w-prose {
+    max-width: 65ch;
+  }
+}
+
+@layer components {
+  .avatar {
+    @apply rounded-full;
+  }
+
+  .gust-h1 {
+    @apply text-4xl font-extrabold;
+  }
+
+  .gust-h2 {
+    @apply text-3xl font-bold;
+  }
+
+  .gust-h3 {
+    @apply text-2xl font-bold;
+  }
+
+  @screen md {
+    .gust-h1 {
+      @apply text-7xl;
+    }
+  }
+}
+
+@layer base {
+  .ql-align-center {
+    @apply text-center;
+  }
+
+  .ql-align-right {
+    @apply text-right;
+  }
+
+  .ql-align-justify {
+    @apply text-justify;
+  }
+
+  .page-links a {
+    text-decoration: underline;
+  }
+
+  .gust-posts-navigation .nav-next,
+  .gust-posts-navigation .nav-previous {
+    flex: 1 1 50%;
+  }
+
+  .gust-posts-navigation .nav-next {
+    text-align: right;
+  }
+
+  .gust-posts-navigation .current {
+    @apply font-bold;
+  }
+
+  .gust-mobile-nav--closed {
+    visibility: hidden;
+    transform: translateX(100%);
+    transition: visibility 0s linear 0.3s, transform 0.3s ease-in-out;
+  }
+
+  .gust-mobile-nav--open {
+    visibility: visible;
+    transform: translateX(0);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .gust-search--closed {
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s linear 0.3s, opacity 0.3s ease-in-out;
+  }
+
+  .gust-search--open {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .gust-search--open .gust-search__container {
+    transform: translateY(0);
+  }
+
+  .entry-content
+    > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright) {
+    @apply px-4 mx-auto;
+    max-width: 100%;
+  }
+
+  .alignleft,
+  .alignright {
+    max-width: 50%;
+  }
+
+  .aligncenter {
+    @apply mx-auto;
+  }
+
+  .alignright {
+    @apply float-right mx-4 mb-2;
+  }
+
+  .alignleft {
+    @apply float-left mx-4 mb-2;
+  }
+
+  .wp-caption-text {
+    @apply mt-2 text-sm text-gray-700;
+  }
+
+  .sub-menu {
+    @apply pl-4;
+  }
+
+  @screen md {
+    .alignleft,
+    .alignright {
+      max-width: 26rem;
+    }
+
+    .entry-content
+      > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright) {
+      max-width: 65ch;
+    }
+  }
+}
